@@ -1,0 +1,48 @@
+/* Set the font family and background color */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Add some padding to the container */
+.container {
+  padding: 20px;
+}
+
+/* Style the profile photo */
+img {
+  border-radius: 50%;
+  box-shadow: 0 0 5px #666;
+}
+
+/* Style the main heading */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0;
+}
+
+/* Style the job title */
+h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #666;
+  margin-top: 0;
+}
+
+/* Style the contact list items */
+li {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Add hover effect to the phone icon */
+li:first-child svg:hover {
+  color: #007bff;
+}
+
+/* Add hover effect to the email icon */
+li:last-child svg:hover {
+  color: #dc3545;
+}
